@@ -1,0 +1,83 @@
+# Compiled binaries
+/out/
+/bin/
+/build/
+/target/
+/.vscode/
+/.idea/
+
+# Dependency directories
+/node_modules/
+/bower_components/
+/vendor/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+*.hdb
+*.sql
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Compiled Java classes
+*.class
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Compiled Ruby files
+*.gem
+*.rbc
+/.config
+
+# Compiled PHP files
+*.php5
+*.php7
+*.phtml
+
+# Compiled Perl files
+*.plc
+*.plx
+*.pmc
+*.swp
+
+# Compiled C++ files
+*.out
+
+# Compiled C# files
+*.exe
+*.dll
+*.pdb
+*.mdb
+
+# Generated files
+gen-*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# User-specific files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS directories and files
+.DS_Store
+.AppleDouble
+.LSOverride
