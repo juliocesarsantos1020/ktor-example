@@ -4,3 +4,20 @@ ktor:
       - com.example.ApplicationKt.module
   deployment:
     port: 8080
+
+datasource:
+  applicationRW:
+    jdbc:
+      url: "jdbc:postgresql://localhost:5432/benf-payment-configuration"
+      username: "benf-payment-configuration-app"
+      password: "benf-payment-configuration-app"
+      driver: "org.postgresql.Driver"
+      connectionTimeout: 500
+
+  applicationRO:
+    jdbc:
+      url: "jdbc:postgresql://localhost:5432/benf-payment-configuration"
+      username: "benf-payment-configuration-app"
+      password: "benf-payment-configuration-app"
+      driver: "org.postgresql.Driver"
+      connectionTimeout: 500

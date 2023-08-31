@@ -34,10 +34,18 @@ dependencies {
     implementation("io.ktor:ktor-server-content-negotiation-jvm")
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm")
     implementation("io.ktor:ktor-serialization-jackson-jvm")
+    implementation("io.ktor:ktor-config:$ktor_version")
+    implementation("org.kodein.di:kodein-di-jvm:7.3.1")
+    implementation("com.zaxxer:HikariCP:3.3.0")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.0") // A versão pode variar
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.0") // Adicione essa dependência para o módulo JavaTime
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.12.5") // Use a versão mais recente
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.9")
     implementation("org.postgresql:postgresql:$postgres_version")
     implementation("com.h2database:h2:$h2_version")
     implementation("org.jetbrains.exposed:exposed-core:$exposed_version")
     implementation("org.jetbrains.exposed:exposed-jdbc:$exposed_version")
+    implementation("io.github.microutils:kotlin-logging:2.0.11")
     implementation("io.ktor:ktor-server-netty-jvm")
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("io.ktor:ktor-server-config-yaml:2.3.3")
